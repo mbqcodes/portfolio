@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@100..900&family=Roboto:wght@100..900&family=Inter:wght@100..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    
+    <header class="navbar">
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <button id="theme-switch">
+                    <i class="bi bi-moon"></i>
+                    <i class="bi bi-brightness-high"></i>
+                </button>
+                <button id="language-switch">
+                    <span class="fi fi-es" id="spanish-flag"></span>
+                    <span class="fi fi-us" id="english-flag" style="display: none;"></span>
+                </button>
+            </ul>
+        </nav>
+        </header>
+    <section class="main-section" id="inicio">
+        <div class="main">
+            <div class="main-left">
+                <div class="main-text">
+                    <h2 class="main-h2"data-i18n="greeting">Hola, soy</h2>
+                    <h1 class="name"data-i18n="name">Matías Benítez</h1>
+                    <h2 class="h2-2" data-i18n="role">Desarrollador Web</h2>
+                    <p class="left-text" data-i18n="description"></p>
+                </div>
+            <div class="main-icons">
+                <a href="https://github.com/mbqcodes" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <div class="email-container">
+                    <i class="bi bi-envelope"></i>
+                    <div class="email-menu">
+                        <span id="email-text">mbqcodes@gmail.com</span>
+                        <button id="copy-email">Copiar</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="main-right">
+                <div class="right-content">
+                    <ul>
+                        <li><a href="#inicio"data-i18n="start">Inicio</a></li>
+                        <li><a href="#proyectos"data-i18n="projects">Proyectos</a></li>
+                        <li><a href="#habilidades"data-i18n="skills">Habilidades</a></li>
+                        <li><a href="#about"data-i18n="about">Acerca de</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mouse-scroll">
+        <i class="bi bi-mouse"></i>
+    </div>
+
+    <section class="projects">
+        <div class="project-text">
+            <h2 class="project-tittle"id="proyectos"data-i18n="projects-tittle">Proyectos</h2>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="images/mockups/landing-mockup.png" class="img-large">
+                    <div class="project-overlay">
+                        <h3>Landing Page</h3>
+                        <div class="project-overlay-content">
+                            <div class="tech-icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"/></svg>
+                            </div>
+                        <div class="links">
+                            <a href="https://mbqcodes.github.io/ecommerce-cart-system/" target="_blank"data-i18n="view-project">Ver proyecto</a>
+                            <a href="https://github.com/mbqcodes/E-commerce-Cart-System" target="_blank">GitHub</a>
+                        </div>
+                        </div>
+                    </div>
+            </div>           
+
+        <div class="small-container">
+            <div class="project-card">
+                <img src="images/mockups/cart-mockup.png" class="img-small">
+                <div class="project-overlay">
+                    <h3>Carrito de compras</h3>
+                    <div class="project-overlay-content">
+                        <div class="tech-icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"/></svg>
+                        </div>
+                        <div class="links">
+                        <a href="https://mbqcodes.github.io/E-commerce-Cart-System/" target="_blank"data-i18n="view-project">Ver proyecto</a>
+                        <a href="https://github.com/mbqcodes/E-commerce-Cart-System" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+
+        <div class="project-card">
+            <img src="images/mockups/portfolio-mockup.png" class="img-small">
+                <div class="project-overlay">
+                <h3>Portfolio Personal</h3>
+                <div class="project-overlay-content">
+                        <div class="tech-icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"/></svg>
+                        </div>
+                    <div class="links">
+                        <a href="https://mbqcodes.github.io/portfolio/" target="_blank"data-i18n="view-project">Ver proyecto</a>
+                        <a href="https://github.com/mbqcodes/portfolio" target="_blank">Github</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+        </div>
+
+    </div>
+    </section>
+    </div>
+
+    
+    <section class="skills-section" id="habilidades">
+        <h2 class="skill-text">Skills</h2>
+        <div class="skill-card">
+            <h2 class="skill-title"data-i18n="mastered">Dominadas</h2>
+            <div class="icons">
+                <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/><span>HTML</span></div>
+                <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/><span>CSS</span></div>
+                <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/><span>JavaScript</span></div>
+            </div>
+        </div>
+
+    <div class="skill-card">
+        <h2 class="skill-title"data-i18n="learning">Aprendiendo</h2>
+        <div class="icons">
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg"/><span>Node.js</span></div>
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"/><span>SQL</span></div>
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/><span>React</span></div>
+        </div>
+    </div>
+
+    <div class="skill-card">
+        <h2 class="skill-title"data-i18n="tools">Herramientas</h2>
+        <div class="icons-2">
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/><span>Git</span></div>
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"/><span>GitHub</span></div>
+        </div>
+    </div>
+    </section>
+
+    <section id="about" class="about-me">
+        <div class="about-me-container">
+            <div class="about-me-text">
+                <h2 data-i18n="about-title">Sobre mí</h2>
+                <p data-i18n="about-description-1">
+                Soy un desarrollador web autodidacta con pasión por crear interfaces 
+                modernas, limpias y accesibles. Me especializo en el desarrollo de 
+                landing pages optimizadas con HTML, CSS y JavaScript.
+                </p>
+                <p data-i18n="about-description-2">
+                Actualmente sigo aprendiendo React y 
+                bases de datos para ampliar mi stack hacia el 
+                desarrollo fullstack. Me motiva resolver problemas, aprender de 
+                cada proyecto y aportar soluciones creativas a los clientes.
+                </p>
+            <a href="#contacto" class="btn-about-me" data-i18n="work-together">Trabajemos juntos</a>    
+        </div>
+
+        <div class="about-me-img">
+            <img src="images/undraw_building-a-website_1wrp.svg" alt="Avatar desarrollador">
+        </div>  
+    </div>
+
+    <div class="services">
+        <h3 data-i18n="services-title">Lo que ofrezco</h3>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="bi bi-laptop"></i>
+                <h4 data-i18n="service-1-title">Paginas Web Modernas</h4>
+                <p data-i18n="service-1-description">Diseño y desarrollo de páginas rápidas y optimizadas para destacar tu proyecto o negocio.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="bi bi-phone"></i>
+                <h4 data-i18n="service-2-title">Diseño Responsivo</h4>
+                <p data-i18n="service-2-description">Experiencia de usuario adaptada a cualquier dispositivo, con interfaces claras y accesibles.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="bi bi-code-slash"></i>
+                <h4 data-i18n="service-3-title">Interactividad con JS</h4>
+                <p data-i18n="service-3-description">Agrego dinamismo y funcionalidad para crear sitios atractivos y fáciles de usar.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="bi bi-palette"></i>
+                <h4 data-i18n="service-4-title">Estilo Personalizado</h4>
+                <p data-i18n="service-4-description">Implementación de diseños modernos, tipografías limpias y colores accesibles para mejorar la experiencia visual.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="app.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
