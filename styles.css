@@ -412,7 +412,7 @@ h1 {
 
 .img-large {
     width: 100%;
-    max-height: 550px;
+    max-height: 650px;
     border-radius: 12px;
     object-fit: cover;
 }
@@ -445,6 +445,25 @@ h1 {
     transition: transform 0.4s ease;
     transition: transform 0.5s ease, filter 0.5s ease;
 }
+
+.all-projects {
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 1.2rem 7.5rem;
+    background: #007bff;
+    color: var(--m-text);
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Montserrat";
+}
+
+.all-projects:hover {
+    background: #0056b3;
+}
+
 
 
 /*Overlay*/

@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'service-3-title': 'Interactividad con JS',
         'service-3-description': 'Agrego dinamismo y funcionalidad para crear sitios atractivos y fáciles de usar.',
         'service-4-title': 'Estilo Personalizado',
-        'service-4-description': 'Implementación de diseños modernos, tipografías limpias y colores accesibles para mejorar la experiencia visual.'
+        'service-4-description': 'Implementación de diseños modernos, tipografías limpias y colores accesibles para mejorar la experiencia visual.',
+        'all-projects': 'Ver todos mis proyectos'
     },
     'en': {
         'greeting': 'Hello, I am',
@@ -58,7 +59,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'service-3-title': 'JS Interactivity',
         'service-3-description': 'I add dynamism and functionality to create attractive and easy-to-use sites.',
         'service-4-title': 'Custom Style',
-        'service-4-description': 'Implementation of modern designs, clean typography and accessible colors to enhance the visual experience.'
+        'service-4-description': 'Implementation of modern designs, clean typography and accessible colors to enhance the visual experience.',
+        'all-projects': 'Take a look at all my projects'
     }
 };
     

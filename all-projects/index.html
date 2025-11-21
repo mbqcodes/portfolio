@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos los Proyectos - Matías Benítez</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@100..900&family=Roboto:wght@100..900&family=Inter:wght@100..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/icons/favicon.png">
+    
+</head>
+<body>
+    
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    
+    <header class="navbar">
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <button id="theme-switch">
+                    <i class="bi bi-moon"></i>
+                    <i class="bi bi-brightness-high"></i>
+                </button>
+                <button id="language-switch">
+                    <span class="fi fi-es" id="spanish-flag"></span>
+                    <span class="fi fi-us" id="english-flag" style="display: none;"></span>
+                </button>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="all-projects-page">
+        <div class="container">
+            <h1 class="page-title" data-i18n="all-projects">Todos mis proyectos</h1>
+            <p class="page-subtitle" data-i18n="all-projects-text">Una colección de mis trabajos más recientes y destacados</p>
+            
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/mockups/kukul.png" alt="Kukul Landing Page">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-text">
+                            <h2 class="project-name">Kukul AI</h2>
+                            <p class="project-description"data-i18n="kukul-text">Landing page moderna para una plataforma de inteligencia artificial. Diseño limpio y optimizado para conversiones, con animaciones sutiles y estructura responsive.</p>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://kukul.ai" target="_blank" class="project-link" data-i18n="view-project">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/mockups/construmar.png" alt="ConstruMar">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-text">
+                            <h2 class="project-name">ConstruMar</h2>
+                            <p class="project-description"data-i18n="construmar-text">Sitio web para empresa de construcción con catálogo de servicios, galería de proyectos y formulario de contacto. Diseño orientado a la confianza y profesionalismo.</p>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">LocalStorage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mbqcodes.github.io/ConstruMar/" target="_blank" class="project-link" data-i18n="view-project">Ver proyecto</a>
+                            <a href="https://github.com/mbqcodes/ConstruMar" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/mockups/cart-mockup.png" alt="Carrito de Compras">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-text">
+                            <h2 class="project-name"data-i18n="shopping-cart">Carrito de Compras</h2>
+                            <p class="project-description"data-i18n="shopping-cart-text">Sistema completo de carrito de compras con funcionalidades de agregar, eliminar y modificar productos. Interfaz intuitiva con cálculos en tiempo real y almacenamiento local.</p>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">LocalStorage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mbqcodes.github.io/E-commerce-Cart-System/" target="_blank" class="project-link" data-i18n="view-project">Ver proyecto</a>
+                            <a href="https://github.com/mbqcodes/E-commerce-Cart-System" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 4 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/mockups/landing-mockup.png" alt="Landing Page">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-text">
+                            <h2 class="project-name">Landing Page</h2>
+                            <p class="project-description"data-i18n="landing-text">Landing page realizada como primer proyecto de programacion web. Simula ser una landing de un procesador Intel. Diseñado de manera totalmente responsive, con estetica minimalista.</p>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mbqcodes.github.io/web-landing-page/" target="_blank" class="project-link" data-i18n="view-project">Ver proyecto</a>
+                            <a href="https://github.com/mbqcodes/web-landing-page" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 5 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/mockups/portfolio-mockup.png" alt="Portfolio">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-text">
+                            <h2 class="project-name" data-i18n="portfolio">Portfolio personal</h2>
+                            <p class="project-description" data-i18n="portfolio-text">Pagina en la que estas ahora mismo, mi portfolio personal. Recopilacion de todos los proyectos en los que he trabajado, mis habilidades y servicios</p>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">LocalStorage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mbqcodes.github.io/portfolio/" target="_blank" class="project-link" data-i18n="view-project">Ver proyecto</a>
+                            <a href="https://github.com/mbqcodes/portfolio" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="back-to-portfolio">
+                <a href="../index.html" class="back-link" data-i18n="back-to">
+                    <i class="bi bi-arrow-left"></i>
+                    Volver al portfolio
+                </a>
+            </div>
+        </div>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
